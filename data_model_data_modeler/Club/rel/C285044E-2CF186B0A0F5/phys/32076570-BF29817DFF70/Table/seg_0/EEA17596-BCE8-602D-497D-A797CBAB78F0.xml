@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="HC_Kyiv_Capitals" directorySegmentName="seg_0" id="EEA17596-BCE8-602D-497D-A797CBAB78F0">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="docs" id="2A636298-6798-A364-0EBA-3C647F77CA77">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="address" id="30E78F7C-37D8-F909-BA6C-BCFD906C3D7F">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="description" id="49A10155-5905-4CC3-F7BC-8A76B89327AE">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="club_name_eng" id="570B10AD-A0D4-50A8-D37E-3CF5EE859C91">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="club_name_ukr" id="62B43263-1438-AF49-C1FC-7812C6D6D0F9">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WhatsApp" id="65E8356B-6A54-FEAF-4E9F-A6E1D8402B4B">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="law_legal_form" id="89E26195-5119-121E-1DA1-DA7ED0F92FC5">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Viber" id="977540E4-DEAF-82B3-CEEB-F6B8A645D122">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="club_id" id="B88F6F86-AD5A-145E-44B6-70D535B5F007">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Telegram" id="D6AFADB6-2BB3-48D5-B4E2-F9EA201CF88E">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="site" id="E04F7FE5-D585-B7EE-B027-DCF8DA1C5440">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HC_Kyiv_Capitals_PK" id="C46A3E7D-67CA-B84B-3AAA-ED14F7B37EE8">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEA17596-BCE8-602D-497D-A797CBAB78F0" name="Club">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:30:38 UTC</createdTime>
+<generatorID>8043C9B4-3E90-4B96-A204-5B9DB33BC6D1</generatorID>
+<notes><![CDATA[Корневой элемент системы]]></notes>
+<ownerDesignName>Club</ownerDesignName>
+<ordsAlias>hc_kyiv_capitals</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="club_id" id="B88F6F86-AD5A-145E-44B6-70D535B5F007">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:30:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Организация Клуб]]></commentInRDBMS>
+<generatorID>74B4FC6B-45EA-FE97-B745-06099EDB8017</generatorID>
+<ownerDesignName>Club</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="club_name_eng" id="570B10AD-A0D4-50A8-D37E-3CF5EE859C91">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:30:38 UTC</createdTime>
+<generatorID>2BC53417-991E-2611-E30A-CAE0F97FCCFE</generatorID>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="club_name_ukr" id="62B43263-1438-AF49-C1FC-7812C6D6D0F9">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:30:38 UTC</createdTime>
+<generatorID>68AAC1FB-5CEE-D77A-BF78-21F66E6EAF9E</generatorID>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="law_legal_form" id="89E26195-5119-121E-1DA1-DA7ED0F92FC5">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:30:38 UTC</createdTime>
+<generatorID>5E9F3724-EF37-BCD1-E604-0DD05A086E8C</generatorID>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="30E78F7C-37D8-F909-BA6C-BCFD906C3D7F">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:30:38 UTC</createdTime>
+<generatorID>F011892F-5D0C-EEEB-9C6E-A651A6224049</generatorID>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="doc" id="2A636298-6798-A364-0EBA-3C647F77CA77">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:30:38 UTC</createdTime>
+<generatorID>70B9523F-B919-306B-9B62-6FA3F3B154CE</generatorID>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="site" id="E04F7FE5-D585-B7EE-B027-DCF8DA1C5440">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:30:38 UTC</createdTime>
+<generatorID>921F0027-3DF7-F71C-76A7-874927AC832E</generatorID>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="youtube" id="481C56E9-99E9-5623-D7BE-BB05615333D2">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-26 06:39:51 UTC</createdTime>
+<generatorID>8E86BD2E-2398-B337-B5F1-20258714185B</generatorID>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="facebook" id="0BFDC92E-C152-84B4-9353-0B4CC2222CDC">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-26 06:40:23 UTC</createdTime>
+<generatorID>8E86BD2E-2398-B337-B5F1-20258714185B</generatorID>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="instagram" id="29FF7FE2-F027-1A74-9EAF-0650C2398D37">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-26 06:41:24 UTC</createdTime>
+<generatorID>8E86BD2E-2398-B337-B5F1-20258714185B</generatorID>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tiktok" id="65E8356B-6A54-FEAF-4E9F-A6E1D8402B4B">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:30:38 UTC</createdTime>
+<generatorID>8E86BD2E-2398-B337-B5F1-20258714185B</generatorID>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telegram" id="D6AFADB6-2BB3-48D5-B4E2-F9EA201CF88E">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:30:38 UTC</createdTime>
+<generatorID>8A4B5A27-F9DE-7CBC-E3A2-66EACCBD51C6</generatorID>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="49A10155-5905-4CC3-F7BC-8A76B89327AE">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:30:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Историческая справка]]></commentInRDBMS>
+<generatorID>9CB9DAD6-810B-B68D-5D50-0E55FD7EF7B9</generatorID>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C46A3E7D-67CA-B84B-3AAA-ED14F7B37EE8" name="CLUB_PK">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:30:38 UTC</createdTime>
+<generatorID>2AEFE542-3AC9-E104-8394-4F5AA6E0C185</generatorID>
+<ownerDesignName>Club</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B88F6F86-AD5A-145E-44B6-70D535B5F007"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

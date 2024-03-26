@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Equipments" directorySegmentName="seg_0" id="556FC628-E0CB-E182-BD41-54EEDAE2599F">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="equip_type_id" id="00664DF3-4230-091B-137B-DB59B90CB451">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="equipment_id" id="24F92CEF-A412-17E4-9519-7BDA585F4C6E">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="state_id" id="47E11A9E-4895-CFE6-3C80-54839D084A4F">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:51:14 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="State_state_id" id="8297E543-73C4-E6C6-B171-4E3085A3060C">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 00:10:28 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dir_item_id" id="C9A37065-D64E-F765-3648-51A3528F6B44">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:50:47 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Equipments_Equip_type_FK" id="C98F3812-D881-E0DC-7DE0-8D159EBC42D9">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:53:41 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Equipments_State_FK" id="E97E67E5-7E83-015C-9C8C-4F5D7F611F6E">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 00:10:28 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Equipments_PK" id="D6D721A0-20A9-020F-C6BF-5CEC4D8EE8D5">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

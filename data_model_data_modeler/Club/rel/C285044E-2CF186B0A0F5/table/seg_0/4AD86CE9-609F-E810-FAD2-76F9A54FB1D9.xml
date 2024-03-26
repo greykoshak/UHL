@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4AD86CE9-609F-E810-FAD2-76F9A54FB1D9" name="Dir_Stick">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:57:47 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dir_item_id" id="873ECB93-881E-673F-6043-CF5B80E706FE">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 00:03:19 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="14B22522-B095-8919-E0C5-B8960244C123">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 00:04:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Описание характеристик клюшки]]></commentInRDBMS>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="info" id="C62303DA-45B0-06C4-D4E1-A7B025EF4C48">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 00:05:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Для заметок С.Нужина]]></commentInRDBMS>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

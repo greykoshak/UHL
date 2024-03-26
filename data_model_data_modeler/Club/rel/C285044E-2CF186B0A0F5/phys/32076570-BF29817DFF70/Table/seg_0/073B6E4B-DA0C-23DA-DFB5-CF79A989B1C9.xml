@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Departments" directorySegmentName="seg_0" id="073B6E4B-DA0C-23DA-DFB5-CF79A989B1C9">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="department_name" id="1DE8731A-7976-4043-53B9-64D2BB208D35">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HC_Kyiv_Capitals_club_id" id="6ED9BAB8-D1DC-BCFE-A418-FEE8E96BA227">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="department_id" id="8FB3B12F-218C-87A2-7832-6A2566237A2D">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Departments_HC_Kyiv_Capitals_FK" id="7AC049E4-9169-E966-98F4-DDE122D94F64">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Departments_PK" id="454330F7-EF76-5EC8-7C2C-32B55E1157CE">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

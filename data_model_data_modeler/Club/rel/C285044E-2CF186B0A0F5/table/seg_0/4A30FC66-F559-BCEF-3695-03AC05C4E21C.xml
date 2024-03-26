@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A30FC66-F559-BCEF-3695-03AC05C4E21C" name="Team">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:39:32 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="team_id" id="13ABF0A5-A8CB-BDE9-652D-3A3E904A4F1B">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:40:15 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departments_department_id" id="F0F5D61E-5031-6891-77EE-931D9F019F90">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:42:45 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79BB63F6-BB9B-0A49-730D-AB53A345FA58" referredColumn="8FB3B12F-218C-87A2-7832-6A2566237A2D"/>
+</associations>
+</Column>
+<Column name="Persons_person_id" id="0A523448-F53C-9DD7-CA76-D15A07099690">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 00:07:19 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0143D28-34C6-81E6-845B-4504889A32E0" referredColumn="7CF89B64-C080-7D1B-CDC7-48061BDF1327"/>
+</associations>
+</Column>
+<Column name="Info" id="4DE292B1-A105-BDCF-010E-C49D6C1B9E26">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 00:19:10 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BCCAE934-F1B0-4635-F20E-53312B88A285" name="Team_PK">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:40:15 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13ABF0A5-A8CB-BDE9-652D-3A3E904A4F1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67808836-3838-50B7-86BA-309DA22986D6" name="Team_Departments_FK">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:42:45 UTC</createdTime>
+<generatorID>570AF327-75BA-B1A5-3250-8E6834E1F13B</generatorID>
+<ownerDesignName>Club</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0F5D61E-5031-6891-77EE-931D9F019F90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68E92163-3167-0651-D4DD-065B25C78DE8" name="Team_Persons_FK">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 00:07:19 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A523448-F53C-9DD7-CA76-D15A07099690"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="280CA8A7-4B92-7C44-0CE6-4B9C8AA60118" name="Amplua">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 12:05:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="amplua_id" id="1D3902E7-7280-FCE0-07CC-458222E3E4E9">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 12:05:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Вратарь, защитник, нападающий]]></commentInRDBMS>
+<ownerDesignName>Club</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amplua" id="0A989CFC-30F7-D898-0FF3-4D12F8C6FC54">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 12:05:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75506D1B-7E6C-814D-6971-E6D343C8960D" name="Positionv1_PK">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 12:05:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D3902E7-7280-FCE0-07CC-458222E3E4E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
