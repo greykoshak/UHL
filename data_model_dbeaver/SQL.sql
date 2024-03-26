@@ -53,6 +53,8 @@ WITH DATA;
 
 select * from mv_equipment
 
-select * from equipment e, mv_equipment me, dr_state ds, p
+select e.equipment_id, me.type_name, me.equip_name, ds.state_name, dp.person_name, dp.sex 
+from equipment e, mv_equipment me, dr_state ds, dr_person dp 
 where e.ln_equipment_id = me.ln_equipment_id 
 and e.dr_state_id = ds.dr_state_id 
+and e.dr_person_id = dp.dr_person_id 
