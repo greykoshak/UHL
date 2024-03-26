@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="073B6E4B-DA0C-23DA-DFB5-CF79A989B1C9" name="D_Department">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:30:38 UTC</createdTime>
+<generatorID>6A755599-60AA-7CD7-D558-02EA15568262</generatorID>
+<notes><![CDATA[Подразделение Клуба (справочник)]]></notes>
+<ownerDesignName>Club</ownerDesignName>
+<ordsAlias>departments</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="D_Department_ID" id="8FB3B12F-218C-87A2-7832-6A2566237A2D">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:30:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Справочник подразделений Клуба]]></commentInRDBMS>
+<generatorID>0B4F9CB8-1F01-4AF4-B859-4942D04A6F1B</generatorID>
+<ownerDesignName>Club</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_D_Department_department_id</notNullConstraintName>
+</Column>
+<Column name="department_name" id="1DE8731A-7976-4043-53B9-64D2BB208D35">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:30:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Название подразделения]]></commentInRDBMS>
+<generatorID>5837FCB3-B38A-A1AA-D374-8AEBABC41F44</generatorID>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Club_club_id" id="13724CB7-8DB6-C954-ED05-EE41B611DA00">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-26 06:51:18 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06890F39-0216-F8E6-4C47-897E2F1576BB" referredColumn="B88F6F86-AD5A-145E-44B6-70D535B5F007"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="454330F7-EF76-5EC8-7C2C-32B55E1157CE" name="D_Department_PK">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:30:38 UTC</createdTime>
+<generatorID>570AF327-75BA-B1A5-3250-8E6834E1F13B</generatorID>
+<ownerDesignName>Club</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FB3B12F-218C-87A2-7832-6A2566237A2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75EFFB22-64C3-99D8-3123-63B5308D0E50" name="D_Department_Club_FK">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-26 06:51:18 UTC</createdTime>
+<generatorID>2AEFE542-3AC9-E104-8394-4F5AA6E0C185</generatorID>
+<ownerDesignName>Club</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13724CB7-8DB6-C954-ED05-EE41B611DA00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

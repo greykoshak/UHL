@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Persons" directorySegmentName="seg_0" id="0F68FE5D-0D5A-518D-192C-CE362ADBAF80">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="passport_info" id="08C70E80-DAE3-61B7-CC00-915CB5FEFED6">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="last_name" id="15092176-6621-2962-A02B-3322A66DDCE6">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="first_name" id="61B1304D-E3E5-00A7-D694-1917B7E12E55">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="person_id" id="7CF89B64-C080-7D1B-CDC7-48061BDF1327">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="phone" id="8E6E8FC4-4D03-8196-7AB6-903AEC2E7BF0">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="address" id="95FD0B66-3749-09FE-0275-A42EA7F3B329">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="birthday" id="BA916ACC-4A42-F8F7-2CAB-2AB161BD2987">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Position_position_id" id="BE4C6132-BE7B-430E-F551-D611A5F4B8FB">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="surname" id="D803055F-985D-DBF8-2D1A-DFEA376E28DF">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sex" id="F1C45483-33D9-5602-51B1-631D2187893D">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Persons_Position_FK" id="CDED2BC0-1E59-B5F9-6856-80E5E77B9594">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Persons_PK" id="B7A34B36-F33A-AFD9-6D7C-84ED77C054E4">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:46:48 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE0698A7-4F19-184A-AE79-B7494891AB53" name="Equip_type">
+<sourceDDLFile>uhl-data-model.ddl</sourceDDLFile>
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:52:23 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E25CF5CF-758C-C6FD-FB04-431B28BF913B">
+<sourceDDLFile>uhl-data-model.ddl</sourceDDLFile>
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:52:23 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1341BFB9-2A43-3B5C-2BDD-F6E5DC766F2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="B80FD3D4-74FB-CE56-DF20-32CE79A5F33F">
+<sourceDDLFile>uhl-data-model.ddl</sourceDDLFile>
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:52:23 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BC9420F1-5FDB-23E3-CD7A-854032FD7F5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dir_name" id="8684733F-5600-AD3D-5B6C-D2D87F1AB076">
+<sourceDDLFile>uhl-data-model.ddl</sourceDDLFile>
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:52:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ex.: Dir_Sticks]]></commentInRDBMS>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1530BC6-21EC-21F6-A1B6-F5F1681A0E06" name="Equip_type_pk">
+<sourceDDLFile>uhl-data-model.ddl</sourceDDLFile>
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:52:23 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E25CF5CF-758C-C6FD-FB04-431B28BF913B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

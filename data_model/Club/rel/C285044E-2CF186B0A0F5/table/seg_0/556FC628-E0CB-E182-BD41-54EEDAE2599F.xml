@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="556FC628-E0CB-E182-BD41-54EEDAE2599F" name="Equipment">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 00:42:22 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="equipment_id" id="24F92CEF-A412-17E4-9519-7BDA585F4C6E">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 00:43:33 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="equip_type_id" id="00664DF3-4230-091B-137B-DB59B90CB451">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 00:45:00 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1341BFB9-2A43-3B5C-2BDD-F6E5DC766F2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E2CF253-F06F-9FB2-41F3-267159FB641F" referredColumn="E25CF5CF-758C-C6FD-FB04-431B28BF913B"/>
+</associations>
+</Column>
+<Column name="dir_item_id" id="C9A37065-D64E-F765-3648-51A3528F6B44">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:50:47 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state_id" id="47E11A9E-4895-CFE6-3C80-54839D084A4F">
+<sourceDDLFile>uhl-data-model.ddl</sourceDDLFile>
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:51:14 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1341BFB9-2A43-3B5C-2BDD-F6E5DC766F2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="State_state_id" id="8297E543-73C4-E6C6-B171-4E3085A3060C">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 00:10:28 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1341BFB9-2A43-3B5C-2BDD-F6E5DC766F2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="607D4492-5C79-C839-08C2-7D108825EF48" referredColumn="E6A1AD07-73BC-1F9A-3D87-1C90C7C173A2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6D721A0-20A9-020F-C6BF-5CEC4D8EE8D5" name="Equipments_PK">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 00:43:33 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24F92CEF-A412-17E4-9519-7BDA585F4C6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C98F3812-D881-E0DC-7DE0-8D159EBC42D9" name="Equipments_Equip_type_FK">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:53:41 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00664DF3-4230-091B-137B-DB59B90CB451"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E97E67E5-7E83-015C-9C8C-4F5D7F611F6E" name="Equipments_State_FK">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 00:10:28 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8297E543-73C4-E6C6-B171-4E3085A3060C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

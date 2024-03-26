@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA6DDA68-6CBB-B10A-9426-E13CE00566EF" name="State">
+<sourceDDLFile>uhl-data-model.ddl</sourceDDLFile>
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 00:07:46 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="state_id" id="E6A1AD07-73BC-1F9A-3D87-1C90C7C173A2">
+<sourceDDLFile>uhl-data-model.ddl</sourceDDLFile>
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 00:07:46 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1341BFB9-2A43-3B5C-2BDD-F6E5DC766F2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state_description" id="B4C9E0E3-DE81-56A5-C60B-902EDFE31599">
+<sourceDDLFile>uhl-data-model.ddl</sourceDDLFile>
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 00:07:46 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0EA9176C-8C8A-DEA4-1E6C-8EEF7624E8ED</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA80A36B-3030-6089-C5C3-770491FF6786" name="state_pk">
+<sourceDDLFile>uhl-data-model.ddl</sourceDDLFile>
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 00:07:46 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6A1AD07-73BC-1F9A-3D87-1C90C7C173A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

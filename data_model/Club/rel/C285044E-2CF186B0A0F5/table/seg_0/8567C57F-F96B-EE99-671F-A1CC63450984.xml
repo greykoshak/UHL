@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8567C57F-F96B-EE99-671F-A1CC63450984" name="Operation">
+<sourceDDLFile>uhl-data-model.ddl</sourceDDLFile>
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<ordsAlias>operations</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="operation_id" id="B0F8D822-3808-4CAE-72B4-7CB67B4AA423">
+<sourceDDLFile>uhl-data-model.ddl</sourceDDLFile>
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Приход, расход, списание, выдача]]></commentInRDBMS>
+<ownerDesignName>Club</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1341BFB9-2A43-3B5C-2BDD-F6E5DC766F2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="A9C768C3-5F98-2B2A-1555-A4ECDD4205DD">
+<sourceDDLFile>uhl-data-model.ddl</sourceDDLFile>
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0EA9176C-8C8A-DEA4-1E6C-8EEF7624E8ED</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD117A80-2BFB-61DE-3505-2CD24DAC7F69" name="Add_to_stock_pk">
+<sourceDDLFile>uhl-data-model.ddl</sourceDDLFile>
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0F8D822-3808-4CAE-72B4-7CB67B4AA423"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F68FE5D-0D5A-518D-192C-CE362ADBAF80" name="Person">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:47:08 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="7CF89B64-C080-7D1B-CDC7-48061BDF1327">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:49:23 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="61B1304D-E3E5-00A7-D694-1917B7E12E55">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:49:23 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="surname" id="D803055F-985D-DBF8-2D1A-DFEA376E28DF">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:49:23 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="15092176-6621-2962-A02B-3322A66DDCE6">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:49:23 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passport_info" id="08C70E80-DAE3-61B7-CC00-915CB5FEFED6">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:50:51 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="95FD0B66-3749-09FE-0275-A42EA7F3B329">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:50:51 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="8E6E8FC4-4D03-8196-7AB6-903AEC2E7BF0">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:50:51 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birthday" id="BA916ACC-4A42-F8F7-2CAB-2AB161BD2987">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:51:25 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sex" id="F1C45483-33D9-5602-51B1-631D2187893D">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:52:14 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Position_position_id" id="BE4C6132-BE7B-430E-F551-D611A5F4B8FB">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-26 06:53:15 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7A34B36-F33A-AFD9-6D7C-84ED77C054E4" name="Person_PK">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-19 23:52:39 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CF89B64-C080-7D1B-CDC7-48061BDF1327"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

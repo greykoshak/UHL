@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Operations" directorySegmentName="seg_0" id="8567C57F-F96B-EE99-671F-A1CC63450984">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="name" id="A9C768C3-5F98-2B2A-1555-A4ECDD4205DD">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="operation_id" id="B0F8D822-3808-4CAE-72B4-7CB67B4AA423">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Add_to_stock_pk" id="AD117A80-2BFB-61DE-3505-2CD24DAC7F69">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

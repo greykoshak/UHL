@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0BA5D2A-880C-7A47-5FB5-20A7C471431C" name="Transaction">
+<sourceDDLFile>uhl-data-model.ddl</sourceDDLFile>
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<ordsAlias>transactions</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="transaction_iid" id="DE964559-E1C7-A624-EDA9-808C8804F4BA">
+<sourceDDLFile>uhl-data-model.ddl</sourceDDLFile>
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1341BFB9-2A43-3B5C-2BDD-F6E5DC766F2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="operation_id" id="41A8DAE2-CD92-D87C-50BD-8EAF8903B379">
+<sourceDDLFile>uhl-data-model.ddl</sourceDDLFile>
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 00:28:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Приход, расход, списание, выдача]]></commentInRDBMS>
+<ownerDesignName>Club</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1341BFB9-2A43-3B5C-2BDD-F6E5DC766F2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="equipment_id" id="11DC4B12-50FA-4334-DAED-FD56C853357B">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 00:27:56 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trans_date" id="5CE90883-1D6E-09D9-9596-365AA2EA770B">
+<sourceDDLFile>uhl-data-model.ddl</sourceDDLFile>
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>6817949F-7B47-BDE8-CA4B-9AAF9A660029</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="info" id="2858D716-ABA0-389F-0550-C6A057090779">
+<sourceDDLFile>uhl-data-model.ddl</sourceDDLFile>
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0EA9176C-8C8A-DEA4-1E6C-8EEF7624E8ED</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="person_id" id="D930A2CD-390A-AFA7-5166-30F66293445C">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Operations_operation_id" id="5A482D23-9C10-BA43-FE45-266BF1113997">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 00:29:54 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1341BFB9-2A43-3B5C-2BDD-F6E5DC766F2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FE456D3-1034-EC21-2BA6-E9ADB986259A" referredColumn="B0F8D822-3808-4CAE-72B4-7CB67B4AA423"/>
+</associations>
+</Column>
+<Column name="Equipments_equipment_id" id="720D0A22-B809-E340-CFA6-AE3699E57392">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 00:31:32 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BC7EDFD-D8E1-41C6-95C1-298C24AC88EC" referredColumn="24F92CEF-A412-17E4-9519-7BDA585F4C6E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E4BBA7F-F2B2-DBD3-7F05-FAE6DEF54AC9" name="transactions_pk">
+<sourceDDLFile>uhl-data-model.ddl</sourceDDLFile>
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE964559-E1C7-A624-EDA9-808C8804F4BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEB71134-95ED-68CA-0C90-E1C5360FDDA7" name="Transactions_Operations_FK">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 00:29:54 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A482D23-9C10-BA43-FE45-266BF1113997"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="849C1D20-7B8D-50D6-8E17-A529BCB5E8CD" name="Transactions_Equipments_FK">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 00:31:32 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="720D0A22-B809-E340-CFA6-AE3699E57392"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

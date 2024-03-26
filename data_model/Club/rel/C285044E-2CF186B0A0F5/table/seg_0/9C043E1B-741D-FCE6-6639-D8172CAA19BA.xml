@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C043E1B-741D-FCE6-6639-D8172CAA19BA" name="Document">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 00:20:18 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="document_id" id="2146828F-0209-B773-3622-17567FE3DDB9">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 00:22:52 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="doc_date" id="208BAC7F-E093-1A6D-39EE-EEF42B4EF003">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 00:22:52 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="doc_number" id="5FD314D1-2378-B909-3C3B-82BFDABDFC71">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 00:28:58 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="document_type_id" id="DE7E39FB-C301-25BE-9E25-D1F54652990D">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 00:31:26 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B540D3A0-1D1D-5B04-1FCC-9F75EDC4B7CD" referredColumn="4DCAADF8-46B5-F986-EE71-8F4824FA81BC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DF635D3-EA16-84F2-5E47-8A1BD39C7D18" name="Document_PK">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 00:22:52 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2146828F-0209-B773-3622-17567FE3DDB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C7751ED-CEF1-F5D4-E203-F7E6113273BD" name="Document_Document_type_FK">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 00:31:26 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE7E39FB-C301-25BE-9E25-D1F54652990D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Transactions" directorySegmentName="seg_0" id="B0BA5D2A-880C-7A47-5FB5-20A7C471431C">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_equip" id="05CC4B28-2731-2501-51D1-05FB230EAA6A">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="info" id="2858D716-ABA0-389F-0550-C6A057090779">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="trans_date" id="5CE90883-1D6E-09D9-9596-365AA2EA770B">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_oper" id="AB535161-7D80-9FA9-B825-BA859B4E260B">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="person_id" id="D930A2CD-390A-AFA7-5166-30F66293445C">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="transaction_iid" id="DE964559-E1C7-A624-EDA9-808C8804F4BA">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="transactions_pk" id="8E4BBA7F-F2B2-DBD3-7F05-FAE6DEF54AC9">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:55:55 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

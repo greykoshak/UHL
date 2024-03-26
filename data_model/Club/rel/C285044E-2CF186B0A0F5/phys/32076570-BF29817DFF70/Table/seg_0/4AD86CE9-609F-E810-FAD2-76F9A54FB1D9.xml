@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Dir_Sticks" directorySegmentName="seg_0" id="4AD86CE9-609F-E810-FAD2-76F9A54FB1D9">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-20 23:57:47 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="description" id="14B22522-B095-8919-E0C5-B8960244C123">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 00:04:43 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dir_item_id" id="873ECB93-881E-673F-6043-CF5B80E706FE">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 00:03:19 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="info" id="C62303DA-45B0-06C4-D4E1-A7B025EF4C48">
+<createdBy>greykoshak</createdBy>
+<createdTime>2024-03-21 00:05:28 UTC</createdTime>
+<ownerDesignName>Club</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>
