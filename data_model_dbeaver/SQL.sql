@@ -42,13 +42,13 @@ WITH DATA;
 
 select * from mv_equipment
 
-select e.equipment_id, me.type_name, me.equip_name, ds.state_name, dp.person_name 
+select e.equipment_id, me.type_name, me.equip_name, ds.state_name, dp.person_name, e.eq_price, e.eq_date_creation
 from equipment e, mv_equipment me, dr_state ds, dr_person dp 
 where e.equipment_id  = me.equipment_id  
 and e.dr_state_id = ds.dr_state_id 
 and e.dr_person_id = dp.dr_person_id 
 union all 
-select e.equipment_id, me.type_name, me.equip_name, ds.state_name, ds.state_name 
+select e.equipment_id, me.type_name, me.equip_name, ds.state_name, ds.state_name, e.eq_price, e.eq_date_creation
 from equipment e, mv_equipment me, dr_state ds 
 where e.equipment_id = me.equipment_id 
 and e.dr_state_id = ds.dr_state_id 
