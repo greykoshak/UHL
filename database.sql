@@ -52,21 +52,24 @@ CREATE TABLE equipment (
     dr_eq_type_id SERIAL,
     dr_state_id SERIAL,
     dr_person_id SERIAL,
-    -- eq_price,
+    document_ext_in_id   SERIAL,
+    eq_price numeric,
+    eg_person_operation VARCHAR(20),
+	eq_date_creation TIMESTAMP,
     CONSTRAINT equipment_pkey PRIMARY KEY (equipment_id)
 );
 
--- CREATE TABLE document_in (
---     document_in_id   SERIAL,
---     doc_name VARCHAR(20),
---     doc_from VARCHAR(20),
---     doc_date DATA,
---     doc_person VARCHAR(20),
---     doc_price_all VARCHAR(20),
---     CONSTRAINT document_in_pkey PRIMARY KEY (document_in_id)
---     -- CONSTRAINT fk_dr_ln_document_in FOREIGN KEY(ln_document_in_id) REFERENCES ln_document_in(ln_document_in_ID)
--- );
-
+CREATE TABLE document_ext_in (
+    document_ext_in_id   SERIAL,
+    doc_name VARCHAR(20),
+    doc_from VARCHAR(20),
+    doc_date DATE,
+    doc_person VARCHAR(20),
+    doc_person_operation VARCHAR(20),
+    doc_price_all numeric,
+    doc_date_creation TIMESTAMP,
+    CONSTRAINT document_ext_in_pkey PRIMARY KEY (document_ext_in_id)
+);
 
 INSERT INTO dr_equipment_type (dr_equipment_type_id, type_name) VALUES(1, 'Stick');
 INSERT INTO dr_equipment_type (dr_equipment_type_id, type_name) VALUES(2, 'Skate');
@@ -88,19 +91,16 @@ INSERT INTO dr_person (dr_person_id, first_name, surname, last_name, passport_in
 INSERT INTO dr_person (dr_person_id, first_name, surname, last_name, passport_info, address, phone, birthday, sex, person_name) VALUES(2, 'Данило', NULL, 'Бабчук', NULL, NULL, NULL, NULL, 'M', 'Данило Бабчук');
 INSERT INTO dr_person (dr_person_id, first_name, surname, last_name, passport_info, address, phone, birthday, sex, person_name) VALUES(3, 'Микола', '', 'Дворник', NULL, NULL, NULL, NULL, 'M', 'Микола Дворник');
 
--- INSERT INTO ln_equipment (ln_equipment_id, dr_eq_type_id, dr_eq_id) VALUES(1, 1, 1);
--- INSERT INTO ln_equipment (ln_equipment_id, dr_eq_type_id, dr_eq_id) VALUES(2, 1, 2);
--- INSERT INTO ln_equipment (ln_equipment_id, dr_eq_type_id, dr_eq_id) VALUES(3, 2, 1);
--- INSERT INTO ln_equipment (ln_equipment_id, dr_eq_type_id, dr_eq_id) VALUES(4, 2, 2);
--- INSERT INTO ln_equipment (ln_equipment_id, dr_eq_type_id, dr_eq_id) VALUES(5, 3, 1);
--- INSERT INTO ln_equipment (ln_equipment_id, dr_eq_type_id, dr_eq_id) VALUES(6, 3, 2);
+INSERT INTO document_ext_in (document_ext_in_id, doc_name, doc_from, doc_date, doc_person, doc_person_operation, doc_price_all, doc_date_creation) VALUES(1, 'Invoice #12', 'Shop', CURRENT_TIMESTAMP, 'Admin2', 'Admin1', 13900, CURRENT_TIMESTAMP);
+INSERT INTO document_ext_in (document_ext_in_id, doc_name, doc_from, doc_date, doc_person, doc_person_operation, doc_price_all, doc_date_creation) VALUES(2, 'Invoice 15', 'Shop', CURRENT_TIMESTAMP, 'Admin2', 'Admin1', 25800, CURRENT_TIMESTAMP);
+INSERT INTO document_ext_in (document_ext_in_id, doc_name, doc_from, doc_date, doc_person, doc_person_operation, doc_price_all, doc_date_creation) VALUES(3, 'Invoice 221', 'Internet shop', CURRENT_TIMESTAMP, 'Admin2', 'Admin1', 6700, CURRENT_TIMESTAMP);
 
-INSERT INTO equipment (equipment_id, dr_eq_type_id, dr_eq_id, dr_state_id, dr_person_id) VALUES(1, 1, 1, 1, 0);
-INSERT INTO equipment (equipment_id, dr_eq_type_id, dr_eq_id, dr_state_id, dr_person_id) VALUES(2, 1, 2, 2, 2);
-INSERT INTO equipment (equipment_id, dr_eq_type_id, dr_eq_id, dr_state_id, dr_person_id) VALUES(3, 2, 1, 2, 1);
-INSERT INTO equipment (equipment_id, dr_eq_type_id, dr_eq_id, dr_state_id, dr_person_id) VALUES(4, 2, 2, 1, 0);
-INSERT INTO equipment (equipment_id, dr_eq_type_id, dr_eq_id, dr_state_id, dr_person_id) VALUES(5, 3, 1, 2, 2);
-INSERT INTO equipment (equipment_id, dr_eq_type_id, dr_eq_id, dr_state_id, dr_person_id) VALUES(6, 3, 2, 2, 3);
+INSERT INTO equipment (equipment_id, dr_eq_id, dr_eq_type_id, dr_state_id, dr_person_id, document_ext_in_id, eq_price, eg_person_operation, eq_date_creation) VALUES(1, 1, 1, 1, 0, 1, 6700, 'Admin1', CURRENT_TIMESTAMP);
+INSERT INTO equipment (equipment_id, dr_eq_id, dr_eq_type_id, dr_state_id, dr_person_id, document_ext_in_id, eq_price, eg_person_operation, eq_date_creation) VALUES(2, 2, 1, 2, 2, 2, 7200, 'Admin1', CURRENT_TIMESTAMP);
+INSERT INTO equipment (equipment_id, dr_eq_id, dr_eq_type_id, dr_state_id, dr_person_id, document_ext_in_id, eq_price, eg_person_operation, eq_date_creation) VALUES(3, 1, 2, 2, 1, 3, 12300, 'Admin1', CURRENT_TIMESTAMP);
+INSERT INTO equipment (equipment_id, dr_eq_id, dr_eq_type_id, dr_state_id, dr_person_id, document_ext_in_id, eq_price, eg_person_operation, eq_date_creation) VALUES(4, 2, 2, 1, 0, 4, 13500, 'Admin1', CURRENT_TIMESTAMP);
+INSERT INTO equipment (equipment_id, dr_eq_id, dr_eq_type_id, dr_state_id, dr_person_id, document_ext_in_id, eq_price, eg_person_operation, eq_date_creation) VALUES(5, 1, 3, 2, 2, 5, 3500, 'Admin1', CURRENT_TIMESTAMP);
+INSERT INTO equipment (equipment_id, dr_eq_id, dr_eq_type_id, dr_state_id, dr_person_id, document_ext_in_id, eq_price, eg_person_operation, eq_date_creation) VALUES(6, 2, 3, 2, 3, 6, 3200, 'Admin1', CURRENT_TIMESTAMP);
 
 CREATE MATERIALIZED VIEW IF NOT EXISTS mv_equipment
 AS

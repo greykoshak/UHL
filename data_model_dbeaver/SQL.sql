@@ -54,3 +54,6 @@ where e.equipment_id = me.equipment_id
 and e.dr_state_id = ds.dr_state_id 
 and ds.dr_state_id = 1
 order by 1
+
+select e.eq_date_creation, to_char(e.eq_date_creation, 'yyyy-mm-dd hh24:mi:ss')
+from equipment e 
