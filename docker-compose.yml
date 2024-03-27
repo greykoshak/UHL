@@ -1,0 +1,43 @@
+version: '3.8'
+services:
+  # These are the configurations for our Node app
+  # When Docker Compose starts this container it will automatically
+  # use the Dockerfile in the directory to configure it
+  # app:
+  #   build: .
+  #   depends_on:
+  #     # Our app does not work without our database
+  #     # so this ensures our database is loaded first
+  #     - postgres
+  #   ports:
+  #     - "8080:8080"
+  #   volumes:
+  #     # Maps our current project directory `.` to
+  #     # our working directory in the container
+  #     - ./:/usr/src/app/
+  #     # node_modules workaround for volumes
+  #     # https://stackoverflow.com/a/32785014
+  #     - /usr/src/app/node_modules
+
+  postgres:
+    image: postgres:16.2-alpine # 14.1-alpine
+    restart: always
+    environment:
+      - POSTGRES_USER=uhl
+      - POSTGRES_PASSWORD=1
+      - POSTGRES_DB=uhl
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./database.sql:/docker-entrypoint-initdb.d/database.sql
+
+  # PostgreSQL pgAdmin panel accessible at http://localhost:16543/
+  # pgadmin-compose:
+  #   image: dpage/pgadmin4
+  #   environment:
+  #     PGADMIN_DEFAULT_EMAIL: "devtestdev009@gmail.com"
+  #     PGADMIN_DEFAULT_PASSWORD: "password123!"
+  #   ports:
+  #     - "16543:80"
+  #   depends_on:
+  #     - postgres
