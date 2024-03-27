@@ -46,13 +46,6 @@ CREATE TABLE dr_person (
     CONSTRAINT dr_person_pkey PRIMARY KEY (dr_person_ID)
 );
 
--- CREATE TABLE ln_equipment (
---     ln_equipment_id   SERIAL,
---     dr_eq_id SERIAL,
---     dr_eq_type_id SERIAL,
---     CONSTRAINT ln_equipment_pkey PRIMARY KEY (ln_equipment_id)
--- );
-
 CREATE TABLE equipment (
     equipment_id   SERIAL,
     dr_eq_id SERIAL,
