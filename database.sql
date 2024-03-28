@@ -16,6 +16,9 @@ CREATE TABLE dr_stick (
     dr_eq_id   SERIAL,
     dr_eq_type_ID   SERIAL,
     stick_name VARCHAR(50),
+    hand VARCHAR(10),
+    flex VARCHAR(20),
+    band  VARCHAR(20),
     CONSTRAINT dr_stick_pkey PRIMARY KEY (dr_eq_id)
 );
 
@@ -86,8 +89,8 @@ INSERT INTO dr_equip_type (dr_equip_type_id, type_name) VALUES(1, 'Stick');
 INSERT INTO dr_equip_type (dr_equip_type_id, type_name) VALUES(2, 'Skate');
 INSERT INTO dr_equip_type (dr_equip_type_id, type_name) VALUES(3, 'Gloves');
 
-INSERT INTO dr_stick (dr_eq_id, stick_name, dr_eq_type_ID) VALUES(1, 'BAUER VAPOR X4.0 GRIP', 1);
-INSERT INTO dr_stick (dr_eq_id, stick_name, dr_eq_type_ID) VALUES(2, 'BAUER VAPOR X2.0 GRIP', 1);
+INSERT INTO public.dr_stick (dr_eq_id, dr_eq_type_id, stick_name, hand, flex, band) VALUES(1, 1, 'BAUER VAPOR X4.0 GRIP', 'L', '98', '65');
+INSERT INTO public.dr_stick (dr_eq_id, dr_eq_type_id, stick_name, hand, flex, band) VALUES(2, 1, 'BAUER VAPOR X2.0 GRIP', 'R', '76', '80');
 
 INSERT INTO dr_skate (dr_eq_id, skate_name, dr_eq_type_ID) VALUES(1, 'Bauer Vapor 3X Pro Sr', 2);
 INSERT INTO dr_skate (dr_eq_id, skate_name, dr_eq_type_ID) VALUES(2, 'Bauer Supreme M5 Pro Sr', 2);
