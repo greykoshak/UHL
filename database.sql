@@ -8,7 +8,11 @@ CREATE TABLE dr_equip_type (
 CREATE TABLE dr_skate (
     dr_eq_id   SERIAL,
     dr_eq_type_ID   SERIAL,
-    skate_name VARCHAR(50),
+    title VARCHAR(50),
+    sk_size VARCHAR(10),
+    sk_fit VARCHAR(10),
+
+
     CONSTRAINT dr_skate_pkey PRIMARY KEY (dr_eq_id)
 );
 
@@ -92,8 +96,8 @@ INSERT INTO dr_equip_type (dr_equip_type_id, type_name) VALUES(3, 'Gloves');
 INSERT INTO public.dr_stick (dr_eq_id, dr_eq_type_id, stick_name, hand, flex, band) VALUES(1, 1, 'BAUER VAPOR X4.0 GRIP', 'L', '98', '65');
 INSERT INTO public.dr_stick (dr_eq_id, dr_eq_type_id, stick_name, hand, flex, band) VALUES(2, 1, 'BAUER VAPOR X2.0 GRIP', 'R', '76', '80');
 
-INSERT INTO dr_skate (dr_eq_id, skate_name, dr_eq_type_ID) VALUES(1, 'Bauer Vapor 3X Pro Sr', 2);
-INSERT INTO dr_skate (dr_eq_id, skate_name, dr_eq_type_ID) VALUES(2, 'Bauer Supreme M5 Pro Sr', 2);
+INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VALUES(1, 2, 'Bauer Vapor 3X Pro Sr', '8', 'Fit 1');
+INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VALUES(2, 2, 'Bauer Supreme M5 Pro Sr', '9', 'Fit 3');
 
 INSERT INTO dr_glove (dr_eq_id, glove_name, dr_eq_type_ID) VALUES(1, 'Bauer Vapor Hyperlite Sr', 3);
 INSERT INTO dr_glove (dr_eq_id, glove_name, dr_eq_type_ID) VALUES(2, 'Bauer Supreme Mach Sr', 3);
@@ -128,7 +132,7 @@ INSERT INTO public.doc_int (doc_int_id, doc_name, person_from, person_to, doc_pe
 
 CREATE MATERIALIZED VIEW IF NOT EXISTS mv_equipment
 AS
-SELECT e.equipment_id as equipment_id, det.type_name as type_name, ds.skate_name as equip_name 
+SELECT e.equipment_id as equipment_id, det.type_name as type_name, ds.title as equip_name 
 FROM equipment e, dr_equip_type det, dr_skate ds
 where e.dr_eq_type_id = det.dr_equip_type_id 
 and e.dr_eq_id = ds.dr_eq_id 
