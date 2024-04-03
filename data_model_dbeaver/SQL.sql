@@ -1,4 +1,43 @@
 
+select me.type_name, count(*)
+from mv_equipment me
+group by me.type_name
+
+select e.equipment_id, me.type_name, me.equip_name, ds.state_name, dp.person_name, e.eq_price, e.eq_date_creat
+from equipment e, mv_equipment me, dr_state ds, dr_person dp 
+where e.equipment_id  = me.equipment_id  
+and e.dr_state_id = ds.dr_state_id 
+and e.dr_person_id = dp.dr_person_id 
+
+SELECT e.equipment_id as equipment_id, det.type_name as type_name, ds.*
+FROM equipment e, dr_equip_type det, dr_stick ds
+where e.dr_eq_type_id = det.dr_equip_type_id 
+and e.dr_eq_id = ds.dr_eq_id 
+and det.dr_equip_type_id =ds.dr_eq_type_id
+
+SELECT e.equipment_id as equipment_id, det.type_name as type_name, ds.*
+FROM equipment e, dr_equip_type det, dr_skate ds
+where e.dr_eq_type_id = det.dr_equip_type_id 
+and e.dr_eq_id = ds.dr_eq_id 
+and det.dr_equip_type_id =ds.dr_eq_type_id
+
+SELECT e.equipment_id as equipment_id, det.type_name as type_name, dp.person_name , ds.*
+FROM equipment e, dr_equip_type det, dr_skate ds, dr_person dp 
+where e.dr_eq_type_id = det.dr_equip_type_id 
+and e.dr_eq_id = ds.dr_eq_id 
+and det.dr_equip_type_id =ds.dr_eq_type_id
+and e.dr_person_id = dp.dr_person_id 
+
+SELECT e.equipment_id as equipment_id, det.type_name as type_name, dp.person_name , ds2.*
+FROM equipment e, dr_equip_type det, dr_stick ds2, dr_person dp 
+where e.dr_eq_type_id = det.dr_equip_type_id 
+and e.dr_eq_id = ds2.dr_eq_id 
+and det.dr_equip_type_id =ds2.dr_eq_type_id
+and e.dr_person_id = dp.dr_person_id
+and e.dr_state_id = 2
+
+
+
 SELECT e.equipment_id as equipment_id, det.type_name as type_name, ds.skate_name as equip_name 
 FROM equipment e, dr_equipment_type det, dr_skate ds
 where e.dr_eq_type_id = det.dr_equipment_type_id 

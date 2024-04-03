@@ -1,0 +1,5 @@
+"dr_person_id";"person_name";"first_name";"surname";"last_name";"passport_info";"address";"phone";"birthday";"sex"
+1;Павло Таран;Павло;;Таран;;;;;M
+2;Данило Бабчук;Данило;;Бабчук;;;;;M
+3;Микола Дворник;Микола;"";Дворник;;;;;M
+0;Админ;Админ;;;;;;;M
