@@ -1,46 +1,46 @@
 CREATE TABLE IF NOT EXISTS dr_equip_type (
-    dr_equip_type_ID   SERIAL,
+    ID   SERIAL,
     type_name VARCHAR(50),
-    CONSTRAINT dr_equip_type_pkey PRIMARY KEY (dr_equip_type_ID)
+    CONSTRAINT dr_equip_type_pkey PRIMARY KEY (ID)
 );
 
 CREATE TABLE IF NOT EXISTS dr_skate (
-    dr_eq_id   SERIAL,
-    dr_eq_type_ID   SERIAL,
+    id   SERIAL,
+    eq_type_ID   SERIAL,
     title VARCHAR(50),
     sk_size VARCHAR(10),
     sk_fit VARCHAR(10),
-    CONSTRAINT dr_skate_pkey PRIMARY KEY (dr_eq_id)
+    CONSTRAINT dr_skate_pkey PRIMARY KEY (id)
 );
 
 CREATE TABLE IF NOT EXISTS dr_stick (
-    dr_eq_id   SERIAL,
-    dr_eq_type_ID   SERIAL,
+    id   SERIAL,
+    eq_type_ID   SERIAL,
     stick_name VARCHAR(50),
     hand VARCHAR(30),
     flex VARCHAR(20),
     band  VARCHAR(20),
-    CONSTRAINT dr_stick_pkey PRIMARY KEY (dr_eq_id)
+    CONSTRAINT dr_stick_pkey PRIMARY KEY (id)
 );
 
 CREATE TABLE IF NOT EXISTS dr_pant (
-    dr_eq_id   SERIAL,
-    dr_eq_type_ID   SERIAL,
+    id   SERIAL,
+    eq_type_ID   SERIAL,
     pant_name VARCHAR(50),
     pant_model VARCHAR(10),
     pant_size VARCHAR(10),
     pant_color VARCHAR(10),
-    CONSTRAINT dr_pant_pkey PRIMARY KEY (dr_eq_id)
+    CONSTRAINT dr_pant_pkey PRIMARY KEY (id)
 );
 
 CREATE TABLE IF NOT EXISTS dr_state (
-    dr_state_ID   SERIAL,
+    ID   SERIAL,
     state_name VARCHAR(50),
-    CONSTRAINT dr_state_pkey PRIMARY KEY (dr_state_ID)
+    CONSTRAINT dr_state_pkey PRIMARY KEY (ID)
 );
 
 CREATE TABLE IF NOT EXISTS dr_person (
-    dr_person_ID   SERIAL,
+    ID   SERIAL,
     person_name VARCHAR(50),
     first_name  VARCHAR(20),
     surname VARCHAR(20),
@@ -50,25 +50,25 @@ CREATE TABLE IF NOT EXISTS dr_person (
     phone   VARCHAR(20),
     birthday    DATE,
     sex VARCHAR(1),
-    CONSTRAINT dr_person_pkey PRIMARY KEY (dr_person_ID)
+    CONSTRAINT dr_person_pkey PRIMARY KEY (ID)
 );
 
-CREATE TABLE IF NOT EXISTS equipment (
-    equipment_id   SERIAL,
-    dr_eq_id SERIAL,
-    dr_eq_type_id SERIAL,
-    dr_state_id SERIAL,
-    dr_person_id SERIAL,
+CREATE TABLE IF NOT EXISTS equip (
+    id   SERIAL,
+    eq_id SERIAL,
+    eq_type_id SERIAL,
+    state_id SERIAL,
+    person_id SERIAL,
     doc_ext_in_id   SERIAL,
     doc_int_id   SERIAL,
     eq_price numeric,
     eq_person_oper VARCHAR(20),
 	eq_date_creat TIMESTAMP,
-    CONSTRAINT equipment_pkey PRIMARY KEY (equipment_id)
+    CONSTRAINT equip_pkey PRIMARY KEY (id)
 );
 
-CREATE TABLE IF NOT EXISTS document_ext_in (
-    doc_ext_in_id   SERIAL,
+CREATE TABLE IF NOT EXISTS doc_ext_in (
+    id   SERIAL,
     doc_name VARCHAR(20),
     doc_from VARCHAR(20),
     doc_date DATE,
@@ -76,15 +76,15 @@ CREATE TABLE IF NOT EXISTS document_ext_in (
     doc_person_oper VARCHAR(20),
     doc_price_all numeric,
     doc_date_creation TIMESTAMP,
-    CONSTRAINT document_ext_in_pkey PRIMARY KEY (doc_ext_in_id)
+    CONSTRAINT doc_ext_in_pkey PRIMARY KEY (id)
 );
 
 CREATE TABLE IF NOT EXISTS doc_int (
-    doc_int_id   SERIAL,
+    id   SERIAL,
     doc_name VARCHAR(20),
     person_from VARCHAR(20),
     person_to VARCHAR(20),
     doc_person_oper VARCHAR(20),
     doc_int_date_cr TIMESTAMP,
-    CONSTRAINT doc_int_pkey PRIMARY KEY (doc_int_id)
+    CONSTRAINT doc_int_pkey PRIMARY KEY (id)
 );
