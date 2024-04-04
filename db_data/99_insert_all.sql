@@ -2,26 +2,8 @@ INSERT INTO dr_equip_type (dr_equip_type_id, type_name) VALUES(1, 'Stick');
 INSERT INTO dr_equip_type (dr_equip_type_id, type_name) VALUES(2, 'Skate');
 INSERT INTO dr_equip_type (dr_equip_type_id, type_name) VALUES(3, 'Pant');
 
--- INSERT INTO public.dr_stick (dr_eq_id, dr_eq_type_id, stick_name, hand, flex, band) VALUES(1, 1, 'BAUER VAPOR X4.0 GRIP', 'L', '98', '65');
--- INSERT INTO public.dr_stick (dr_eq_id, dr_eq_type_id, stick_name, hand, flex, band) VALUES(2, 1, 'BAUER VAPOR X2.0 GRIP', 'R', '76', '80');
-
--- INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VALUES(1, 2, 'Bauer Vapor 3X Pro Sr', '8', 'Fit 1');
--- INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VALUES(2, 2, 'Bauer Supreme M5 Pro Sr', '9', 'Fit 3');
-
--- INSERT INTO dr_glove (dr_eq_id, glove_name, dr_eq_type_ID) VALUES(1, 'Bauer Vapor Hyperlite Sr', 3);
--- INSERT INTO dr_glove (dr_eq_id, glove_name, dr_eq_type_ID) VALUES(2, 'Bauer Supreme Mach Sr', 3);
-
 INSERT INTO dr_state (dr_state_id, state_name) VALUES(1, 'stock');
 INSERT INTO dr_state (dr_state_id, state_name) VALUES(2, 'player');
-
--- INSERT INTO dr_person (dr_person_id, first_name, surname, last_name, passport_info, address, phone, birthday, sex, person_name) VALUES(1, 'Павло', NULL, 'Таран', NULL, NULL, NULL, NULL, 'M', 'Павло Таран');
--- INSERT INTO dr_person (dr_person_id, first_name, surname, last_name, passport_info, address, phone, birthday, sex, person_name) VALUES(2, 'Данило', NULL, 'Бабчук', NULL, NULL, NULL, NULL, 'M', 'Данило Бабчук');
--- INSERT INTO dr_person (dr_person_id, first_name, surname, last_name, passport_info, address, phone, birthday, sex, person_name) VALUES(3, 'Микола', '', 'Дворник', NULL, NULL, NULL, NULL, 'M', 'Микола Дворник');
-
--- INSERT INTO public.dr_person (dr_person_id, first_name, surname, last_name, passport_info, address, phone, birthday, sex, person_name) VALUES(1, 'Павло', NULL, 'Таран', NULL, NULL, NULL, NULL, 'M', 'Павло Таран');
--- INSERT INTO public.dr_person (dr_person_id, first_name, surname, last_name, passport_info, address, phone, birthday, sex, person_name) VALUES(2, 'Данило', NULL, 'Бабчук', NULL, NULL, NULL, NULL, 'M', 'Данило Бабчук');
--- INSERT INTO public.dr_person (dr_person_id, first_name, surname, last_name, passport_info, address, phone, birthday, sex, person_name) VALUES(3, 'Микола', '', 'Дворник', NULL, NULL, NULL, NULL, 'M', 'Микола Дворник');
--- INSERT INTO public.dr_person (dr_person_id, first_name, surname, last_name, passport_info, address, phone, birthday, sex, person_name) VALUES(0, 'Админ', NULL, NULL, NULL, NULL, NULL, NULL, 'M', 'Админ');
 
 INSERT INTO document_ext_in (doc_ext_in_id, doc_name, doc_from, doc_date, doc_person, doc_person_oper, doc_price_all, doc_date_creation) VALUES(1, 'Invoice #12', 'Shop', CURRENT_TIMESTAMP, 'Admin2', 'Admin1', 13900, CURRENT_TIMESTAMP);
 INSERT INTO document_ext_in (doc_ext_in_id, doc_name, doc_from, doc_date, doc_person, doc_person_oper, doc_price_all, doc_date_creation) VALUES(2, 'Invoice 15', 'Shop', CURRENT_TIMESTAMP, 'Admin2', 'Admin1', 25800, CURRENT_TIMESTAMP);

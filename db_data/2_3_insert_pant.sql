@@ -1,7 +1,6 @@
 INSERT INTO public.dr_pant (dr_eq_id, dr_eq_type_id, pant_name, pant_model, pant_size, pant_color) VALUES(1, 3, 'Bauer Vapor Hyperlite', 'Sr', 'XL', 'NAV');
 INSERT INTO public.dr_pant (dr_eq_id, dr_eq_type_id, pant_name, pant_model, pant_size, pant_color) VALUES(2, 3, 'Bauer Supreme Ultrasonic', 'Sr', 'M', '');
 INSERT INTO public.dr_pant (dr_eq_id, dr_eq_type_id, pant_name, pant_model, pant_size, pant_color) VALUES(3, 3, 'Bauer Supreme Ultrasonic', 'Sr', 'XL', '');
-INSERT INTO public.dr_pant (dr_eq_id, dr_eq_type_id, pant_name, pant_model, pant_size, pant_color) VALUES(4, 3, 'Bauer Supreme Ultrasonic', 'Sr', 'M', '');
 INSERT INTO public.dr_pant (dr_eq_id, dr_eq_type_id, pant_name, pant_model, pant_size, pant_color) VALUES(5, 3, 'Bauer Supreme 3S', 'Sr', 'XL', 'NAV');
 INSERT INTO public.dr_pant (dr_eq_id, dr_eq_type_id, pant_name, pant_model, pant_size, pant_color) VALUES(6, 3, 'Bauer Girdle ACP PRO', 'INT', 'L', '');
 INSERT INTO public.dr_pant (dr_eq_id, dr_eq_type_id, pant_name, pant_model, pant_size, pant_color) VALUES(7, 3, 'Bauer Supreme 3S', 'Sr', 'M', 'NAV');
@@ -12,6 +11,5 @@ INSERT INTO public.dr_pant (dr_eq_id, dr_eq_type_id, pant_name, pant_model, pant
 INSERT INTO public.dr_pant (dr_eq_id, dr_eq_type_id, pant_name, pant_model, pant_size, pant_color) VALUES(12, 3, 'Bauer Vapor Hyperlite', 'SR', 'XL', 'NAV');
 INSERT INTO public.dr_pant (dr_eq_id, dr_eq_type_id, pant_name, pant_model, pant_size, pant_color) VALUES(13, 3, 'Bauer Girdle ACP PRO', 'SR', 'XL', '');
 INSERT INTO public.dr_pant (dr_eq_id, dr_eq_type_id, pant_name, pant_model, pant_size, pant_color) VALUES(14, 3, 'Bauer Vapor Hyperlite', 'SR', 'L', 'NAV');
-INSERT INTO public.dr_pant (dr_eq_id, dr_eq_type_id, pant_name, pant_model, pant_size, pant_color) VALUES(15, 3, 'Bauer Vapor Hyperlite', 'SR', 'L', 'NAV');
 INSERT INTO public.dr_pant (dr_eq_id, dr_eq_type_id, pant_name, pant_model, pant_size, pant_color) VALUES(16, 3, 'CCM Jet Speed FT4 PRO', 'SR', 'XL', 'NAV');
 INSERT INTO public.dr_pant (dr_eq_id, dr_eq_type_id, pant_name, pant_model, pant_size, pant_color) VALUES(17, 3, 'Bauer Supreme 3S', 'Sr', 'L', 'BLK');

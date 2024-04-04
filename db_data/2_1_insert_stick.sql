@@ -133,8 +133,6 @@ INSERT INTO public.dr_stick (dr_eq_id, dr_eq_type_id, stick_name, hand, flex, ba
 INSERT INTO public.dr_stick (dr_eq_id, dr_eq_type_id, stick_name, hand, flex, band) VALUES(133, 1, 'Bauer Vapor X5 PRO', '8,5 F1', NULL, NULL);
 INSERT INTO public.dr_stick (dr_eq_id, dr_eq_type_id, stick_name, hand, flex, band) VALUES(134, 1, 'Bauer X5 PRO', '26"', NULL, NULL);
 INSERT INTO public.dr_stick (dr_eq_id, dr_eq_type_id, stick_name, hand, flex, band) VALUES(135, 1, 'Bauer X5 PRO', 'SR.L', NULL, NULL);
-INSERT INTO public.dr_stick (dr_eq_id, dr_eq_type_id, stick_name, hand, flex, band) VALUES(136, 1, 'Bauer �����', '', NULL, NULL);
-INSERT INTO public.dr_stick (dr_eq_id, dr_eq_type_id, stick_name, hand, flex, band) VALUES(137, 1, 'Bauer �����', '', NULL, NULL);
 INSERT INTO public.dr_stick (dr_eq_id, dr_eq_type_id, stick_name, hand, flex, band) VALUES(138, 1, 'BauerTuuk EDGE PULSE ', '263', NULL, NULL);
 INSERT INTO public.dr_stick (dr_eq_id, dr_eq_type_id, stick_name, hand, flex, band) VALUES(139, 1, 'BauerTuuk EDGELS2', '8,9,10,11', NULL, NULL);
 INSERT INTO public.dr_stick (dr_eq_id, dr_eq_type_id, stick_name, hand, flex, band) VALUES(140, 1, 'BauerTuuk LS PULSE', '280', NULL, NULL);

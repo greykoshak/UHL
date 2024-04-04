@@ -5,9 +5,7 @@ INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VA
 INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VALUES(5, 2, 'Bauer Vapor 3X PRO', '7', 'F2');
 INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VALUES(6, 2, 'Bauer Supreme M5 PRO', '8,5', 'F1');
 INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VALUES(7, 2, 'Bauer Vapor Hyperlite', '9', 'F2');
-INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VALUES(8, 2, 'Bauer Supreme M5 PRO', '8,5', 'F1');
 INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VALUES(9, 2, 'Bauer Vapor Hyperlite', '10', 'F3');
-INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VALUES(10, 2, 'Bauer Supreme M5 PRO', '8,5', 'F1');
 INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VALUES(11, 2, 'Bauer Vapor Hyperlite', '9,5', 'F2');
 INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VALUES(12, 2, 'Bauer Vapor Hyperlite', '8,5', 'F2');
 INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VALUES(13, 2, 'Bauer Vapor 3X PRO', '8,5', 'F1');
@@ -18,7 +16,6 @@ INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VA
 INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VALUES(18, 2, 'Bauer Vapor X4', '8', 'F1');
 INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VALUES(19, 2, 'Bauer Vapor X4', '8,5', 'F1');
 INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VALUES(20, 2, 'Bauer Vapor 3X', '8,5', 'F2');
-INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VALUES(21, 2, 'Bauer Vapor Hyperlite', '7', 'F3');
 INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VALUES(22, 2, 'Bauer Vapor Hyperlite 2', '8,5', 'F2');
 INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VALUES(23, 2, 'Bauer Vapor X5 PRO', '8,5', 'F1');
 INSERT INTO public.dr_skate (dr_eq_id, dr_eq_type_id, title, sk_size, sk_fit) VALUES(24, 2, 'Bauer Vapor Hyperlite 2', '11', 'F1');
